@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./script.js" async></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="./images/logo.svg" alt=".">
+    </div>
+
+    <div class="heading">
+      <h1><span class="text-highlight">We are launching </span>soon!</h1>
+      <p>Subscribe and get notified</p>
+    </div>
+
+    <div class="input-text">
+      <form action="">      
+        <input type="email" class="box" id="email" placeholder="Your email address..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="please enter valid email [test@test.com]." required />
+        <button class="btn" id="submit" type="submit">Notify Me</button>
+        <p id="invalid-text"><i>Please provide a valid email address</i></p>
+        <p id="valid-text"><i>Thank you for subscribing!</i></p>
+        </form>
+    </div>
+
+    <div class="image">
+      <img src="./images/illustration-dashboard.png" alt="">
+    </div>
+
+    <div class="icons">
+      <ul>
+        <li><a href=""><i class="fa fa-facebook-f"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mohd Yasir Hussain</a>.
+    </p>
+  </footer>
+</body>
+</html>
